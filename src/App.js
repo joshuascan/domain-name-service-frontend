@@ -264,7 +264,7 @@ const App = () => {
     if (network !== "Polygon Mumbai Testnet") {
       return (
         <div className="mt-28">
-          <h2 className="text-white text-[26px] font-semibold tracking-wider">
+          <h2 className="text-white text-center text-[26px] font-semibold tracking-wider">
             Please switch to the Polygon Mumbai Testnet
           </h2>
           <div className="flex justify-center">
@@ -278,7 +278,7 @@ const App = () => {
     }
 
     return (
-      <div className="w-1/3 mt-32 mb-28 flex flex-col justify-center">
+      <div className="w-11/12 md:w-1/3 mt-20 md:mt-32 mb-20 md:mb-28 flex flex-col justify-center">
         <div className="w-full flex items-center relative mb-4">
           <label className="sr-only">Domain</label>
           <input
@@ -391,15 +391,15 @@ const App = () => {
   return (
     <div className="w-full flex flex-col items-center">
       <header className="mt-10 w-11/12">
-        <div className="flex flex-row justify-between ">
+        <div className="flex flex-col items-center md:flex-row md:justify-between ">
           <div>
-            <h1 className="text-white font-bold text-3xl">
+            <h1 className="text-white text-center md:text-left font-bold text-3xl">
               Dum Name Service
               <br />
               DNS on the Polygon Network
             </h1>
           </div>
-          <div className="flex items-center bg-gray-800 text-white font-medium rounded-lg shadow-xl p-4">
+          <div className="flex items-center mt-6 md:mt-0 bg-gray-800 text-white font-medium rounded-lg shadow-xl p-4">
             <img
               alt="Network logo"
               className="w-6 flex items-center mr-2"
