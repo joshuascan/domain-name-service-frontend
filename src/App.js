@@ -248,8 +248,8 @@ const App = () => {
   }, [currentAccount, network]);
 
   const renderNotConnectedContainer = () => (
-    <div className="mt-28">
-      <h2 className="text-white text-center text-[26px] font-semibold tracking-wider">
+    <div className="mt-10 sm:mt-16 md:mt-28">
+      <h2 className="text-white text-center mx-2 text-[20px] sm:text-[26px] font-semibold tracking-wider">
         Welcome to the Dum Name Service!
         <br />
         Please connect your wallet.
