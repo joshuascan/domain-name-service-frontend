@@ -263,8 +263,8 @@ const App = () => {
   const renderInputForm = () => {
     if (network !== "Polygon Mumbai Testnet") {
       return (
-        <div className="mt-28">
-          <h2 className="text-white text-center text-[26px] font-semibold tracking-wider">
+        <div className="mt-10 sm:mt-16 md:mt-28">
+          <h2 className="text-white text-center mx-4 text-[20px] sm:text-[26px] font-semibold tracking-wider">
             Please switch to the Polygon Mumbai Testnet
           </h2>
           <div className="flex justify-center">
