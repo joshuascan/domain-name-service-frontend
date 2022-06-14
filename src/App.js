@@ -335,8 +335,8 @@ const App = () => {
   const renderMints = () => {
     if (currentAccount && mints.length > 0) {
       return (
-        <div className="w-3/4 flex flex-col items-center">
-          <h2 className="text-white text-[26px] font-semibold tracking-wider uppercase mb-6">
+        <div className="w-full md:w-3/4 flex flex-col items-center">
+          <h2 className="text-white text-center text-[26px] font-semibold tracking-wider uppercase mb-6">
             Minted domains
           </h2>
           <div className="flex justify-center flex-wrap">
@@ -351,7 +351,7 @@ const App = () => {
               }
               return (
                 <div
-                  className={`${bgColor} m-4 p-0.5 rounded-xl text-white drop-shadow-[10px_10px_10px_rgba(0,0,0,0.35)]`}
+                  className={`${bgColor} m-2 sm:m-4 p-0.5 rounded-xl text-white drop-shadow-[10px_10px_10px_rgba(0,0,0,0.35)]`}
                   key={index}
                 >
                   <div
