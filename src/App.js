@@ -278,7 +278,7 @@ const App = () => {
     }
 
     return (
-      <div className="w-11/12 md:w-1/3 mt-20 md:mt-32 mb-20 md:mb-28 flex flex-col justify-center">
+      <div className="w-11/12 xl:w-1/3 lg:w-1/2 sm:w-2/3 mt-20 md:mt-32 mb-20 md:mb-28 flex flex-col justify-center">
         <div className="w-full flex items-center relative mb-4">
           <label className="sr-only">Domain</label>
           <input
@@ -335,7 +335,7 @@ const App = () => {
   const renderMints = () => {
     if (currentAccount && mints.length > 0) {
       return (
-        <div className="w-full md:w-3/4 flex flex-col items-center">
+        <div className="w-full lg:w-3/4 flex flex-col items-center">
           <h2 className="text-white text-center text-[26px] font-semibold tracking-wider uppercase mb-6">
             Minted domains
           </h2>
