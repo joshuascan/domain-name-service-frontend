@@ -355,7 +355,7 @@ const App = () => {
                   key={index}
                 >
                   <div
-                    className={`bg-[#171f2d] hover:${bgColor} p-4 rounded-xl`}
+                    className={`bg-[#171f2d] hover:${bgColor} p-2.5 sm:p-4 rounded-xl`}
                   >
                     <div className="flex">
                       <a
